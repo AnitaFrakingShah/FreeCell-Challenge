@@ -27,4 +27,4 @@ What I would Like to work on:
 Start time: 8PM on 6/11/18
 Last Github Push 9PM on 6/12/18
 
-https://github.com/AnitaFrakingShah/FreeCell-Challenge/blob/master/Capture.PNG
+https://raw.githubusercontent.com/AnitaFrakingShah/FreeCell-Challenge/master/Capture.PNG
