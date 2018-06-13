@@ -1,2 +1,26 @@
 # FreeCell-Challenge
-FreeCell Free Cell Solitaire designed in Unity  Unfortunately I have not (as of yet) been able to complete this game. Specifically while I managed to create all of the classes I'd want and the layout for the beginning of the game I have still not implemented the game rules.  Specifically, while the free cell and foundation piles have conditional rules applied to them such that only the appropriate number, type, and order of cards can be added to them, I have yet to implement the ability to overlay cards upon eachother within the columns.  If I had had more time there would be a lot of things I would have implemented differently, specifically adding more comments/specs. Cleaning up the code, and trying to incorporate the foundation piles into one overall class rather than a seperate class for each suit.  However, being the first week I have used unity I learned ALOT in terms of how the software works and the observer abilities one can attach to the sprites (physics 2d objects).
+Free Cell Solitaire designed in Unity  
+
+Unfortunately I have not (as of yet) been able to complete this game. Specifically while I managed to create all of the classes I'd want and the layout for the beginning of the game I have still not implemented all the game rules.  
+
+What I Accomplished:
+- Free Cell, Foundation and Individual Column Cards can be moved appropriately.
+- Almost all illegal moves unallowed (note it is possible to break this version of the game to allow illegal moves to be made).
+- Randomly initiates the game
+- Drag and Drop works
+- Clicking on the Cards sends it into a Free Cell
+
+What I didn't Accomplish
+- JSON I/O integration
+- Multiple screens: Welcome and Exit
+- Moving multiple cards (organized appropriately) among the columns
+
+What I would Like to work on:
+- The design: Specifically reducing the four foundation classes into one. Given the time constraint I was unable to backtrack this feature. I also feel like there has to be a better way to implement the rules than all of the conditionals I ended up having to use.
+
+- Better Collision Identification: As you will soon learn, moving the cards takes MULTIPLE attempts because the collisionboxes don't always register during the ray attack.
+
+-Animations: Having no experience with Unity animations yet, I would have loved to explore this (though I am probably going to keep working on this project after this).
+
+
+
